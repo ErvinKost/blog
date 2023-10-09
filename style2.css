@@ -1,0 +1,75 @@
+@font-face {
+    font-family: myfont;
+    src: url(SF-Pro.ttf);
+}
+
+h1 {
+    text-align: center;
+}
+a[href="Index.html"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+  }
+body {
+    padding: 15%;
+    background-color: rgb(238, 190, 162);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family: myfont; /* Added font-family for the whole document */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+    text-align: center;
+}
+
+pictures1 img {
+    float: left;
+}
+
+* {
+    font-family: myfont;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+.div1, .div2 {
+    width: 50%;
+    height: 100%;
+  }
+  .navigation {
+    list-style: none;
+
+  }
+  .navigation{ 
+transition: all 0.3s ease 0s ;
+  }
+  .navigation :hover{
+    color: rgb(255, 0, 0);
+  }
