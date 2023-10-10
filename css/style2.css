@@ -12,9 +12,51 @@ a[href="Index.html"] {
     left: 0;
     
   }
+  header {
+    background-color: transparent;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    li {
+    display: inline-block;
+    }
+    
+    a {
+    text-decoration:underline;
+    color: #000000;
+    }
+    #more{
+    display: none;
+    }
+    button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    padding-left: 15%;
+    }
+    a:hover {
+    color: #0000ff;
+    }
 body {
-    padding: 15%;
-    background-color: rgb(238, 190, 162);
+    padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: larger;
     font-family: myfont; /* Added font-family for the whole document */
